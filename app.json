@@ -18,16 +18,10 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.mshuheb20.bookingproject"
+      }
     },
     "web": {
       "favicon": "./assets/icon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "a19f5045-885e-49d8-9bdb-6e904bc5850d"
-      }
     }
   }
 }
