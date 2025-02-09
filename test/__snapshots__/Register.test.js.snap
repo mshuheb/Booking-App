@@ -1,0 +1,260 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RegisterScreen /> matches snapshot 1`] = `
+<RCTSafeAreaView
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "white",
+      "flex": 1,
+      "padding": 10,
+    }
+  }
+>
+  <View
+    onLayout={[Function]}
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "justifyContent": "center",
+          "marginTop": 100,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#003580",
+            "fontSize": 17,
+            "fontWeight": "700",
+          }
+        }
+      >
+        Register
+      </Text>
+      <Text
+        style={
+          {
+            "fontSize": 18,
+            "fontWeight": "500",
+            "marginTop": 15,
+          }
+        }
+      >
+        Create an Account
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "marginTop": 50,
+        }
+      }
+    >
+      <View>
+        <Text
+          style={
+            {
+              "color": "gray",
+              "fontSize": 18,
+              "fontWeight": "600",
+            }
+          }
+        >
+          Email
+        </Text>
+        <TextInput
+          onChangeText={[Function]}
+          placeholder="Enter your email id"
+          placeholderTextColor="black"
+          style={
+            {
+              "borderBottomColor": "gray",
+              "borderBottomWidth": 1,
+              "fontSize": 18,
+              "marginVertical": 10,
+              "width": 300,
+            }
+          }
+          value=""
+        />
+      </View>
+      <View
+        style={
+          {
+            "marginTop": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "gray",
+              "fontSize": 18,
+              "fontWeight": "600",
+            }
+          }
+        >
+          Password
+        </Text>
+        <TextInput
+          onChangeText={[Function]}
+          placeholder="Password"
+          placeholderTextColor="black"
+          secureTextEntry={true}
+          style={
+            {
+              "borderBottomColor": "gray",
+              "borderBottomWidth": 1,
+              "fontSize": 18,
+              "marginVertical": 10,
+              "width": 300,
+            }
+          }
+          value=""
+        />
+      </View>
+      <View
+        style={
+          {
+            "marginTop": 15,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "gray",
+              "fontSize": 18,
+              "fontWeight": "600",
+            }
+          }
+        >
+          Phone
+        </Text>
+        <TextInput
+          onChangeText={[Function]}
+          placeholder="Enter your Phone No"
+          placeholderTextColor="black"
+          style={
+            {
+              "borderBottomColor": "gray",
+              "borderBottomWidth": 1,
+              "fontSize": 18,
+              "marginVertical": 10,
+              "width": 300,
+            }
+          }
+          value=""
+        />
+      </View>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "backgroundColor": "#003580",
+          "borderRadius": 7,
+          "marginLeft": "auto",
+          "marginRight": "auto",
+          "marginTop": 50,
+          "padding": 15,
+          "width": 200,
+        }
+      }
+      testID="registerButton"
+    >
+      <Text
+        style={
+          {
+            "color": "white",
+            "fontSize": 17,
+            "fontWeight": "bold",
+            "textAlign": "center",
+          }
+        }
+      >
+        Register
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "marginTop": 20,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "gray",
+            "fontSize": 17,
+            "textAlign": "center",
+          }
+        }
+      >
+        Already have an account? Sign In
+      </Text>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;
