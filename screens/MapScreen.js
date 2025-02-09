@@ -1,5 +1,5 @@
-import React, { useEffect, useRef } from "react";
-import { View, Pressable, Text, StyleSheet } from "react-native";
+import React from "react";
+import { View, StyleSheet } from "react-native";
 import { useRoute } from "@react-navigation/native";
 import { WebView } from "react-native-webview";
 
