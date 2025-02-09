@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Booking.com: Hotels and more",
-    "slug": "Booking-project",
+    "name": "booking.com: Hotels and more",
+    "slug": "booking-project",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
